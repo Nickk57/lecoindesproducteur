@@ -1,0 +1,23 @@
+<?php
+
+    function supProduct() {
+        $success = "Le produit est supprimer !";
+
+        if(isset($_POST['id'])) {
+            $id = strval($_GET['id']);
+            $id_picture = strval($_GET['id_picture']);
+
+            $query = "DELETE FROM picture WHERE id = :id";
+            $req = dbConnect()->prepare($query);
+            $req->bindValue(':id', $id_picture, PDO::PARAM_INT);
+            $req->execute();
+
+            $query = "DELETE FROM product WHERE id = :id";
+            $req = dbConnect()->prepare($query);
+            $req->bindValue(':id', $id, PDO::PARAM_INT);
+            
+            if($req->execute() > 0) {
+                return $success;
+            }
+        }
+    }
