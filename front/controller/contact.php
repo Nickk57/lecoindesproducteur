@@ -11,5 +11,3 @@
 
         require('view/contact.php');
     }
-
-    
