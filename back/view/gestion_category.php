@@ -23,7 +23,7 @@
                             <?= $categ['name']?>
                         </td>
                         <td>
-                            <img src="<?=$categ['path']?>" alt="<?=$categ['name']?>" class="img2">
+                            <img src="../<?=$categ['path']?>" alt="<?=$categ['name']?>" class="img2">
                         </td>
                         <td class="text-center">
                             <a href="indeex.php?page=17&id=<?=$categ['id']?>&id_picture=<?=$categ['id_picture']?>">

@@ -22,7 +22,7 @@
                             <?= $picture['name'] ?>
                         </td>
                         <td class="text-center align-middle">
-                            <img src="<?= $picture['path']?>" class="image1">
+                            <img src="../<?= $picture['path']?>" class="image1">
                         </td>
                         <td class="text-center align-middle">
                             <a href="index.php?page=9&id=<?=$picture['id']?>" onclick="return(confirm('Voulez-vous supprimer cette categorie ?'))">

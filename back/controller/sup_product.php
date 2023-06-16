@@ -5,7 +5,9 @@
     function sup_product() {
 
         if(isset($_GET['id'])) {
-            supProduct();
+            $id = $_GET['id'];
+
+            supProduct($id);
         }
 
         require('view/sup_product.php');

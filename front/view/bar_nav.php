@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg ">
+<nav class="navbar navbar-expand-lg lg-body">
     <div class="container-fluid">
         <a class="navbar-brand" aria-current="page" href="index.php?page=1">
             <img src="../image/logo transparant.png" alt="logo" width="100">

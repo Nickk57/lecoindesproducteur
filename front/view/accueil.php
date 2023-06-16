@@ -7,8 +7,8 @@
             <div class="col-2 z-index-3 text1 text-light">
                 <h2 class="text-uppercase">Votre Magasin De Produits Locaux à Lexy</h2>
                 <p class="">
-                    Venez découvrir un large choix de légumes, fruit, viandes, formages et autres dans 
-                    votre magasin de produits régionaux à lexy
+                    Venez découvrir un large choix de légumes, fruits, viandes, fromages et autres dans 
+                    votre magasin de produits régionaux à Lexy
                 </p>
             </div>
         </div>
@@ -35,13 +35,13 @@
                     <h2>Des Légumes Comme Dans Votre Jardin</h2>
                     <p class="">
                         Au coin des producteurs, la majorité des 
-                        légumes poussent tout près dans nos serres se
+                        légumes poussent dans nos serres se
                         trouvant derrière le magasin.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="row text4">
+        <!-- <div class="row text4">
             <div class="col">
                <h2 class="text-center ">Produits Phares</h2>
                 <div class="row">
@@ -50,15 +50,14 @@
                         <div class="col  mb-2 ms-3 text-center shadow-lg">
                             <a href="index.php?page=6&id=<?=$phar['id']?>" class="link-dark">
                                 <img src="../<?=$phar['path']?>" alt="<?=$phar['name']?>" class="img1">
-                                <h4 class=""><?=$phar['name']?></h4>
+                                <h5 class=""><?=$phar['name']?></h5>
                             </a>
                         </div>
                     <?php } ?>
                     <div class="col-2"></div>
                 </div> 
             </div>
-            
-        </div>
+        </div> -->
         <div class="row">
             <div class="col-2"></div>
             <div class="col">

@@ -21,7 +21,7 @@
                     <tr>
                         <td><?= $subcateg['name']?></td>
                         <td>
-                            <img src="<?=$subcateg['path']?>" alt="<?=$subcateg['name']?>" class="img2">
+                            <img src="../<?=$subcateg['path']?>" alt="<?=$subcateg['name']?>" class="img2">
                         </td>
                         <td class="text-center">
                             <a href="index.php?page=18&id=<?=$subcateg['id']?>&id_category=<?=$subcateg['id_category']?>">

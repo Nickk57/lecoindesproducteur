@@ -27,7 +27,7 @@
                                     <span style="color: #85AE52;"><?=$product['prod_city']?></span>
                                     <?=$product['pord_descrip']?>
                                 </p>
-                                <a href="index.php?page=" class="btn colorfond_marron">Les produits du producteur</a>
+                                <a href="index.php?page=11&id_producteur=<?=$product['pod_id']?>" class="btn colorfond_marron">Les produits du producteur</a>
                             </div>
                         </div>
                     

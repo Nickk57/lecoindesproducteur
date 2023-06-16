@@ -28,7 +28,7 @@
                         <td class="align-middle "><?= $producteur['first_name']?></td>
                         <td class="align-middle "><?= $producteur['description']?></td>
                         <td class="align-middle "><?= $producteur['characte']?></td>
-                        <td class="align-middle "><img src="<?= $producteur['path']?>" class="image1"></td>
+                        <td class="align-middle "><img src="../<?= $producteur['path']?>" class="image1"></td>
                         <td class="text-center align-middle col-1">
                             <a href="index.php?page=30&id=<?=$producteur['id']?>&id_categ_producteur=<?=$producteur['id_categ_producteur']?>">
                                 <i class="fa fa-gear fa-2x" title="Modifier" style="color: orange;">
