@@ -12,5 +12,5 @@
     <a class="nav-link" href="index.php?page=">Gestion des menus fêtes</a>
     <a class="nav-link" href="index.php?page=27">Gestion des produits phar</a>
     <a class="nav-link" href="index.php?page=29">Gestion des nouveauté</a>
-    <a class="nav-link" href="index.php?page=13">Disconnect</a>
+    <a class="nav-link" href="index.php?page=13">Déconnexion</a>
 </nav>

@@ -33,7 +33,7 @@
             id="exampleFormControlTextarea1"></textarea>
         </div>
         <div class="form d-grid gap-2 d-md-flex justify-content-md-end">
-            <button type="submit" name="submit" class="btn btn-outline-success">Envoi message</button>
+            <button type="submit" name="submit" class="btn btn-outline-success">Envoyer</button>
         </div>
         <div class="form">
             <h4><?= $success ?></h4>

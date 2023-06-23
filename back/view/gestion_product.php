@@ -22,7 +22,7 @@
                     <tr>
                         <td><?= $product['name']?></td>
                         <td><?= $product['description']?></td>
-                        <td><img src="<?= $product['path']?>" alt="<?= $product['name']?>" class="img2"></td>
+                        <td><img src="../<?= $product['path']?>" alt="<?= $product['name']?>" class="img2"></td>
                         <td class="text-center">
                             <a href="index.php?page=19&id=<?=$product['id']?>&id_subcategory=<?=$product['id_subcategory']?>&id_producteur=<?=$product['id_producteur']?>&id_picture=<?=$product['id_picture']?>">
                                 <i class="fa fa-gear fa-2x" title="Modifier" style="color: orange;">

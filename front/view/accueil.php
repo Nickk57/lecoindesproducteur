@@ -43,7 +43,7 @@
         </div>
         <!-- <div class="row text4">
             <div class="col">
-               <h2 class="text-center ">Produits Phares</h2>
+               <h2 class="text-center ">Produits Phare</h2>
                 <div class="row">
                 <div class="col-2"></div>
                     <?php foreach($product_phar as $phar) {?>
@@ -60,26 +60,20 @@
         </div> -->
         <div class="row">
             <div class="col-2"></div>
-            <div class="col">
+            <div class="col mt-3">
                 <h2 class="text-uppercase">Rendez-nous visite !</h2>  
             </div>
             <div class="row ">
                 <div class="col-2"></div>
                 <div class="col-3">
-                    <h3 class="text-uppercase">Horaire ouverture</h3>
+                    <h3 class="text-uppercase">Horaires d'ouverture</h3>
                     <p>Lundi & Mardi : Nous cultivons vos légumes</p>
+                    <p>Mardi : 14h/18h pendant la période estivale</p>
                     <p>Mercredi & Jeudi : 9h/12h - 14h/18h</p>
                     <p>Vendredi : 9h/18h30</p>
                     <p>Samedi : 9h/13h00</p>
                     <p>Dimanche : Fermé - On se repose</p>
-                    <p>Tel : <span class="text-decoration-underline">03.82.89.99.27</span></p>
-                    <p class="mt-2">
-                        Nous sommes un magasin de producteurs, nos
-                        plages d’ouverture sont plus restreintes qu’un
-                        supermarché traditionnel. Et c’est tout à fait
-                        normal car nous sommes au champ la moitié du 
-                        temps
-                    </p>
+                    <p>Tel : <span class="text-decoration-underline"><a href="+33382899927" style="color: black;">03.82.89.99.27</a></span></p>
                 </div>
                 <div class="col-1"></div>
                 <div class="col">
