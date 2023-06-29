@@ -35,8 +35,8 @@
                     $allowedExtention = ['jpg', 'jpeg', 'gif', 'png', 'webp', 'svg', 'heic'];
 
                     if (in_array($extention, $allowedExtention)) {
-                        move_uploaded_file($_FILES['picture']['tmp_name'], 'le_coin_des_producteur/uploads/'. basename($_FILES['picture']['name']));
-                        $photo = 'le_coin_des_producteur/uploads/'. basename($_FILES['picture']['name']);
+                        move_uploaded_file($_FILES['picture']['tmp_name'], '../uploads/'. basename($_FILES['picture']['name']));
+                        $photo = '../uploads/'. basename($_FILES['picture']['name']);
                         echo "L'envoi a bien été effectué !";
                         $pictureCh = strip_tags('uploads/'. $_FILES['picture']['name']);
                         ajoutPictureBDD($name, $description, $id_producteur, 

@@ -11,7 +11,7 @@
             $selCategory = selectCategory($id);
 
             if(isset($_POST['submit'])) {
-                modificCateg($id);
+                ajoutPicture();
                 $selCategory = selectCategory($id);
             }
         }

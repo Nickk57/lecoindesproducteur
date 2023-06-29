@@ -21,19 +21,19 @@
                     <tr>
                         <td><?= $subcateg['name']?></td>
                         <td>
-                            <img src="../<?=$subcateg['path']?>" alt="<?=$subcateg['name']?>" class="img2">
+                            <img src="../<?=$subcateg['path']?>" alt="<?=$subcateg['name']?>" class="img_2">
                         </td>
                         <td class="text-center">
-                            <a href="index.php?page=18&id=<?=$subcateg['id']?>&id_category=<?=$subcateg['id_category']?>">
+                            <a href="index.php?page=18&id=<?=$subcateg['id']?>&id_category=<?=$subcateg['id_category']?>&id_picture=<?=$subcateg['id_picture']?>">
                                 <i class="fa fa-gear fa-2x" title="Modifier" style="color: orange;">
-                                    <img src="image/roue de param.png" class="img1">
+                                    <img src="image/roue de param.png" class="img_1">
                                 </i>
                             </a>
                         </td>
                         <td class="text-center">
                             <a href="index.php?page=16&id=<?=$subcateg['id']?>&id_picture=<?=$subcateg['id_picture']?>" onclick="return(confirm('Voulez-vous supprimer cette categorie ?'))">
                                 <i class="fa fa-close fa-2x" title="Supprime" style="color: red;">
-                                    <img src="image/Red_x.svg.png" class="img1">
+                                    <img src="image/Red_x.svg.png" class="img_1">
                                 </i>
                             </a>
                         </td>

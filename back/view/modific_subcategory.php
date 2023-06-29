@@ -21,6 +21,10 @@
                 </select>
             </div>
         </div>
+        <div class="form">
+            <label for="formFile" class="form-label">Photos :</label><br>
+            <input type="file" name="picture" id="formFile" class="form-control">
+        </div><br>
         <div class="form d-grid gap-2 d-md-flex justify-content-md-end">
             <button type="button" name="retour" class="btn btn-danger">
                 <a href="index.php?page=15">Retour</a>

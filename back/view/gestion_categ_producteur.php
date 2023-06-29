@@ -23,19 +23,19 @@
                             <?= $producteur['name']?>
                         </td>
                         <td>
-                            <img src="../<?=$producteur['path']?>" alt="<?=$producteur['name']?>" class="img2">
+                            <img src="../<?=$producteur['path']?>" alt="<?=$producteur['name']?>" class="img_2">
                         </td>
                         <td class="text-center">
                             <a href="index.php?page=31&id_producteur=<?=$producteur['id']?>">
                                 <i class="fa fa-gear fa-2x" title="Modifier" style="color: orange;">
-                                    <img src="image/roue de param.png" class="img1">
+                                    <img src="image/roue de param.png" class="img_1">
                                 </i>
                             </a>
                         </td>
                         <td class="text-center">
                             <a href="index.php?page=22&id_producteur=<?=$producteur['id']?>&id_picture=<?=$producteur['id_picture']?>" onclick="return(confirm('Voulez-vous supprimer cette categorie ?'))">
                                 <i class="fa fa-close fa-2x" title="Supprime" style="color: red;">
-                                    <img src="image/Red_x.svg.png" class="img1">
+                                    <img src="image/Red_x.svg.png" class="img_1">
                                 </i>
                             </a>
                         </td>

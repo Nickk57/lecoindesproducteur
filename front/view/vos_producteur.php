@@ -1,12 +1,14 @@
 <?php ob_start() ?>
 <div class="container">
-    <div class="col">
-        <div class="row">
-            <div class="">
-                <img src="" alt="">
-                <p>Découvrez ci-dessous les producteurs qui oeuvrent au quotidien 
-                    pour vous offrir des produits de qualité, fait avec passion.</p>
-            </div>
+<div class="row mt-5 mb-5 align-items-center">
+        <div class="col">
+            <img src="../image/Sans-titre.jpg" class="align-middle arr_1" alt="image">
+        </div>
+        <div class="col">
+            <p class="align-middle">
+                Découvrer ci_dessous les produits des producteurs qui oeuvrent au 
+                quotidien pour vous offrir des produits de qualité, fait avec passion.
+            </p>
         </div>
     </div>
     <div class="row">

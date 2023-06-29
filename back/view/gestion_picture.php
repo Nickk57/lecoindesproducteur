@@ -22,12 +22,12 @@
                             <?= $picture['name'] ?>
                         </td>
                         <td class="text-center align-middle">
-                            <img src="../<?= $picture['path']?>" class="image1">
+                            <img src="../<?= $picture['path']?>" class="image_2">
                         </td>
                         <td class="text-center align-middle">
                             <a href="index.php?page=9&id=<?=$picture['id']?>" onclick="return(confirm('Voulez-vous supprimer cette categorie ?'))">
                                 <i class="fa fa-close fa-2x" title="Supprime" style="color: red;">
-                                    <img src="image/Red_x.svg.png" class="img1">
+                                    <img src="image/Red_x.svg.png" class="img_1">
                                 </i>
                             </a>
                         </td>

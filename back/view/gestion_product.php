@@ -22,18 +22,18 @@
                     <tr>
                         <td><?= $product['name']?></td>
                         <td><?= $product['description']?></td>
-                        <td><img src="../<?= $product['path']?>" alt="<?= $product['name']?>" class="img2"></td>
+                        <td><img src="../<?= $product['path']?>" alt="<?= $product['name']?>" class="img_2"></td>
                         <td class="text-center">
                             <a href="index.php?page=19&id=<?=$product['id']?>&id_subcategory=<?=$product['id_subcategory']?>&id_producteur=<?=$product['id_producteur']?>&id_picture=<?=$product['id_picture']?>">
                                 <i class="fa fa-gear fa-2x" title="Modifier" style="color: orange;">
-                                    <img src="image/roue de param.png" class="img1">
+                                    <img src="image/roue de param.png" class="img_1">
                                 </i>
                             </a>
                         </td>
                         <td class="text-center">
                             <a href="index.php?page=6&id=<?=$product['id']?>&id_picture=<?=$product['id_picture']?>" onclick="return(confirm('Voulez-vous supprimer se produits ?'))">
                                 <i class="fa fa-close fa-2x" title="Supprime" style="color: red;">
-                                    <img src="image/Red_x.svg.png" class="img1">
+                                    <img src="image/Red_x.svg.png" class="img_1">
                                 </i>
                             </a>
                         </td>

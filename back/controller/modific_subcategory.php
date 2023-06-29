@@ -13,7 +13,7 @@
             $selSubCategory = selectSubCategory($id);
 
             if(isset($_POST['submit'])) {
-                modificSubCategory($id);
+                ajoutPicture($id);
                 $selSubCategory = selectSubCategory($id);
             }
         }

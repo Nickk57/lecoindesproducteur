@@ -32,14 +32,14 @@
                         <td class="text-center align-middle col-1">
                             <a href="index.php?page=30&id=<?=$producteur['id']?>&id_categ_producteur=<?=$producteur['id_categ_producteur']?>">
                                 <i class="fa fa-gear fa-2x" title="Modifier" style="color: orange;">
-                                    <img src="image/roue de param.png" class="img1">
+                                    <img src="image/roue de param.png" class="img_1">
                                 </i>
                             </a>
                         </td>
                         <td class="text-center align-middle col-1">
                             <a href="index.php?page=25&id=<?=$producteur['id']?>$id_picture=<?=$producteur['id_picture']?>" onclick="return(confirm('Voulez-vous supprimer cette categorie ?'))">
                                 <i class="fa fa-close fa-2x" title="Supprime" style="color: red;">
-                                    <img src="image/Red_x.svg.png" class="img1">
+                                    <img src="image/Red_x.svg.png" class="img_1">
                                 </i>
                             </a>
                         </td>

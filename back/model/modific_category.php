@@ -6,7 +6,7 @@
         $req = dbConnect()->prepare($query);
         $req->bindValue(':id', $id, PDO::PARAM_INT);
         $req->execute();
-        $selCategory = $req->fetch(PDO::FETCH_ASSOC);
+        $selCategory = $req->fetchAll();
         return $selCategory;
     }
 
@@ -17,7 +17,7 @@
             return $success;
         }
         else {    
-
+            $id = $_GET['id'];
             $name = strip_tags($_POST['name']);
 
             if (isset($_FILES['picture']) && $_FILES['picture']['error'] == 0) {
@@ -30,8 +30,8 @@
                         move_uploaded_file($_FILES['picture']['tmp_name'], '../uploads/'. basename($_FILES['picture']['name']));
                         $photo = '../uploads/'. basename($_FILES['picture']['name']);
                         echo "L'envoi a bien été effectué !";
-                        $pictureCh = strip_tags('../uploads/'. $_FILES['picture']['name']);
-                        ajoutPictureBDD($name, $pictureCh);
+                        $pictureCh = strip_tags('uploads/'. $_FILES['picture']['name']);
+                        ajoutPictureBDD($id, $name, $pictureCh);
                     }
                     else {
                         echo "Le format de fichier n'est pas autorisée. Merci de n'envoyer que des fichers en (.jpg, .jpeg, .png, .gif)";
@@ -50,7 +50,7 @@
         }
     }
 
-    function ajoutPictureBDD($name, $pictureCh) {
+    function ajoutPictureBDD($id, $name, $pictureCh) {
 
         $query = "INSERT INTO picture (name, path) 
         VALUES (:name, :path)";
@@ -64,10 +64,10 @@
         $req->bindValue(':name', $name, PDO::PARAM_STR);
         $req->execute();
         $pictureID = $req->fetch();
-        modificCateg($name, $pictureID[0]);
+        modificCateg($id, $name, $pictureID[0]);
     }
 
-    function modificCateg($id,$pictureID) {
+    function modificCateg($id, $name, $pictureID) {
 
         $name = htmlspecialchars($_POST['name']);
 

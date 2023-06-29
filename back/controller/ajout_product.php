@@ -6,8 +6,6 @@
         $success = '';
         $selSubCategory = selectSubCategory();
         $selproducteurs = selectCategoryProducteur();
-        // $selectdobule = doubleselectproducteur();
-
 
         if(isset($_POST['submit'])) {
             $success = ajoutPicture();

@@ -6,7 +6,7 @@
         $success = '';
 
         if(isset($_POST['submit'])) {
-            $success = ajoutCategProducteur();
+            $success = ajoutPicture();
         }
 
         require('view/ajout_categ_producteur.php');

@@ -23,19 +23,19 @@
                             <?= $categ['name']?>
                         </td>
                         <td>
-                            <img src="../<?=$categ['path']?>" alt="<?=$categ['name']?>" class="img2">
+                            <img src="../<?=$categ['path']?>" alt="<?=$categ['name']?>" class="img_2">
                         </td>
                         <td class="text-center">
-                            <a href="indeex.php?page=17&id=<?=$categ['id']?>&id_picture=<?=$categ['id_picture']?>">
+                            <a href="indeex.php?page=17&id=<?=$categ['id']?>">
                                 <i class="fa fa-gear fa-2x" title="Modifier" style="color: orange;">
-                                    <img src="image/roue de param.png" class="img1">
+                                    <img src="image/roue de param.png" class="img_1">
                                 </i>
                             </a>
                         </td>
                         <td class="text-center">
                             <a href="index.php?page=12&id=<?=$categ['id']?>&id_picture=<?=$categ['id_picture']?>" onclick="return(confirm('Voulez-vous supprimer cette categorie ?'))">
                                 <i class="fa fa-close fa-2x" title="Supprime" style="color: red;">
-                                    <img src="image/Red_x.svg.png" class="img1">
+                                    <img src="image/Red_x.svg.png" class="img_1">
                                 </i>
                             </a>
                         </td>

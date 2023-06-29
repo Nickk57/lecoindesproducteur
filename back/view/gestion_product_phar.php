@@ -21,7 +21,7 @@
                     <tr>
                         <td><?= $product['name']?></td>
                         <td><?= $product['description']?></td>
-                        <td><img src="<?= $product['path']?>" alt="<?= $product['name']?>" class="img2"></td>
+                        <td><img src="<?= $product['path']?>" alt="<?= $product['name']?>" class="img_2"></td>
                         <td><input type="checkbox" name="choix[]" value="<?=$product['id']?>"></td>
                     </tr>
                 <?php } ?>

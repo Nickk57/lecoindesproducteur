@@ -7,7 +7,7 @@
         <div class="col text-center">
             <!-- <div class="col-2"></div> -->
             <div class="col mt-5">
-                <img src="../<?=$product['path']?>" alt="<?=$product['name']?>" class="image-product">
+                <img src="../<?=$product['path']?>" alt="<?=$product['name']?>" class="image_product">
             </div>
             <div class="col mt-5">
                 <p><?=$product['description']?></p>

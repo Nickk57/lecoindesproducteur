@@ -114,7 +114,6 @@ if(!isset($_SESSION["email"])) {
             }
             elseif($page == 26){
                 include_once('controller/select_product_phar.php');
-                select_product_phar();
             }
             elseif($page == 27){
                 include_once('controller/gestion_product_phar.php');
@@ -122,7 +121,6 @@ if(!isset($_SESSION["email"])) {
             }
             elseif($page == 28){
                 include_once('controller/select_product_new.php');
-                select_product_new();
             }
             elseif($page == 29){
                 include_once('controller/gestion_product_new.php');
@@ -135,6 +133,18 @@ if(!isset($_SESSION["email"])) {
             elseif($page == 31) {
                 include_once('controller/modific_categ_prod.php');
                 select_categ_prod();
+            }
+            elseif($page == 32) {
+                include_once('controller/ajout_menus_fetes.php');
+                ajout_menus_fetes();
+            }
+            elseif($page == 33) {
+                include_once('controller/gestion_menus_fetes.php');
+                gestion_menus_fetes();
+            }
+            elseif($page == 34) {
+                include_once('controller/sup_menus_fetes.php');
+                sup_menus_fetes();
             }
             else {
                 include_once("index.php");

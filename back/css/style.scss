@@ -1,7 +1,16 @@
 $police1: sans-serif;
 
-.img1 {
-    height: 50px;
+.img {
+    &_1 {
+        height: 50px;
+    }
+    &_2 {
+        height: 100px;
+    }
+    &_3 {
+        width: 200px;
+        height: 200px;
+    }
 }
 a {
     text-decoration: none;
@@ -9,13 +18,17 @@ a {
 .text1 {
     text-align: justify;
 }
-.img2 {
-    height: 100px;
+.image {
+    &_1 {
+        height: 100%;
+    }
+    &_2 {
+        height: 300px;
+    }
+    &_product {
+        height: 500px;
+    }
 }
 .image1 {
     height: 100px;
-}
-.img3 {
-    width: 200px;
-    height: 200px;
 }

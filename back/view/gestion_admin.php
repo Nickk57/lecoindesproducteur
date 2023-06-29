@@ -31,7 +31,7 @@
                         <td class="text-center col-2">
                             <a href="index.php?page=3&id=<?=$admin['id']?>" onclick="return(confirm('Voulez-vous supprimer l\'admin'))">
                                 <i class="fa fa-close fa-2x" title="Supprimer" style="color: red;">
-                                    <img src="image/Red_x.svg.png" class="img1">
+                                    <img src="image/Red_x.svg.png" class="img_1">
                                 </i>
                             </a>
                         </td>

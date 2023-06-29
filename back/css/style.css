@@ -1,5 +1,12 @@
-.img1 {
+.img_1 {
   height: 50px;
+}
+.img_2 {
+  height: 100px;
+}
+.img_3 {
+  width: 200px;
+  height: 200px;
 }
 
 a {
@@ -10,15 +17,16 @@ a {
   text-align: justify;
 }
 
-.img2 {
-  height: 100px;
+.image_1 {
+  height: 100%;
+}
+.image_2 {
+  height: 300px;
+}
+.image_product {
+  height: 500px;
 }
 
 .image1 {
   height: 100px;
-}
-
-.img3 {
-  width: 200px;
-  height: 200px;
 }/*# sourceMappingURL=style.css.map */

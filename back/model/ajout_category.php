@@ -20,7 +20,7 @@
                         move_uploaded_file($_FILES['picture']['tmp_name'], '../uploads/'. basename($_FILES['picture']['name']));
                         $photo = '../uploads/'. basename($_FILES['picture']['name']);
                         echo "L'envoi a bien été effectué !";
-                        $pictureCh = strip_tags('../uploads/'. $_FILES['picture']['name']);
+                        $pictureCh = strip_tags('uploads/'. $_FILES['picture']['name']);
                         ajoutPictureBDD($name, $pictureCh);
                     }
                     else {

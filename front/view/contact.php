@@ -1,7 +1,10 @@
 <?php ob_start() ?>
+<head>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LeHu84mAAAAAPmFnP54CmB4kbcK4vtgPtW_5qRy"></script>
+</head>
 <div class="container">
     <form method="post">
-        <h2></h2>
+        <h2 class="text-center">Contact</h2>
         <div class="mb-3 form">
             <div class="">
                 <label for="exampleInputNom1" class="form-label">Votre Nom : *</label>
@@ -32,7 +35,8 @@
             <textarea class="form-control" type="text" name="message" rows="5" 
             id="exampleFormControlTextarea1"></textarea>
         </div>
-        <div class="form d-grid gap-2 d-md-flex justify-content-md-end">
+        <div class="g-recaptcha" data-sitekey="6LflDc8mAAAAAAzWC-f8Hr8unhlPMKZCyaM4tGq8"></div>
+        <div class="d-grid gap-2 col-3 mx-auto">
             <button type="submit" name="submit" class="btn btn-outline-success">Envoyer</button>
         </div>
         <div class="form">
@@ -40,5 +44,17 @@
         </div>
     </form>
 </div>
+<script>
+    function onClick(e) {
+        e.preventDefault();
+        grecaptcha.enterprise.ready(async () => {
+            const token = await grecaptcha.enterprise.execute('6LeHu84mAAAAAPmFnP54CmB4kbcK4vtgPtW_5qRy', {action: 'LOGIN'});
+            // IMPORTANT: The 'token' that results from execute is an encrypted response sent by
+            // reCAPTCHA Enterprise to the end user's browser.
+            // This token must be validated by creating an assessment.
+            // See https://cloud.google.com/recaptcha-enterprise/docs/create-assessment
+        });
+    }
+</script>
 <?php $content = ob_get_clean() ?>
 <?php include('layout.php') ?>

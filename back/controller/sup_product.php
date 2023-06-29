@@ -3,11 +3,11 @@
     require_once('model/sup_product.php');
 
     function sup_product() {
+        $success = '';
 
         if(isset($_GET['id'])) {
-            $id = $_GET['id'];
 
-            supProduct($id);
+            supProduct();
         }
 
         require('view/sup_product.php');

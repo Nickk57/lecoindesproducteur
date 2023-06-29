@@ -1,6 +1,18 @@
 $color_nav: rgb(127,175,79);
 $color_text: rgb(70,54,41);
 
+html {
+    overflow-x: hidden;
+    width: 100vw;
+}
+body {
+    overflow-x: hidden;
+    width: 100vw;
+}
+footer {
+    width: 100vw;
+    overflow-x: hidden;
+}
 nav {
     background: $color_nav;
     color: $color_text;
@@ -39,37 +51,62 @@ footer {
     width: 460px;
     height: 400px;
 }
-.text3 {
-    margin-top: -12rem;
-}
-.text4 {
-    margin-bottom: 4rem;
-}
 .entre {
     width: 100%;
 }
-.text1 {
-    margin-top: -40rem;
-    margin-left: 80em;
+.text {
+    &_1 {
+        line-height: 0.8rem;
+        margin-top: -46rem;
+        margin-left: 87em;
+        margin-bottom: 38rem;
+    }
+    &_2 {
+        margin-bottom: 1rem;
+    }
+    &_3 {
+        margin-top: -12rem;
+    }
+    &_4 {
+        margin-bottom: 4rem;
+    }
+    &_5 {
+        line-height: 0.8rem;
+    }
 }
-.text2 {
-    margin-top: 30rem;
-    margin-bottom: 10px;
+.img {
+    &_1 {
+        width: 100%;
+        height: 80%;
+    }
+    &_2 {
+        width: 300px;
+        height: 200px;
+    }
+    &_3 {
+        width: 100%;
+        height: 80%;
+    }
 }
-.img1 {
-    width: 100%;
-    height: 80%;
+.image {
+    &_fons {
+        width: 500px;
+        height: 375px;
+    }
+    &_product {
+        height: 500px;
+    }
 }
-.img2 {
-    width: 300px;
-    height: 200px;
+.arr {
+    &_1 {
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+        border-radius: 7px;
+    }
 }
 .image-fons {
     width: 500px;
     height: 375px;
-}
-.image-product {
-    height: 500px;
 }
 a {
     text-decoration: none;
@@ -102,8 +139,13 @@ a {
         color: rgb(232,229,79);
     }
 }
-.text {
-    &_1 {
-        line-height: 0.8rem;
+
+@media (max-width: 576px) {
+
+    .text_1 {
+        
+           display: none; 
+        
+        
     }
 }

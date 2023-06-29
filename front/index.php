@@ -14,7 +14,8 @@ if(isset($_GET['page']) && $_GET['page'] !=null) {
         vos_category();
     }
     elseif($page == 3) {
-        include_once('controller/vos_produit_fete.php');
+        include_once('controller/vos_produit_fetes.php');
+        menus_fetes();
     }
     elseif($page == 4) {
         include_once('controller/vos_category_prod.php');
