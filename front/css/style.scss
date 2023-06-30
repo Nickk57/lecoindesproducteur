@@ -138,14 +138,14 @@ a {
     &_jaune {
         color: rgb(232,229,79);
     }
+    &_vert {
+        color: $color_nav;
+    }
 }
 
 @media (max-width: 576px) {
 
     .text_1 {
-        
            display: none; 
-        
-        
     }
 }

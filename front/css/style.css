@@ -136,6 +136,9 @@ a {
 .colortext_jaune {
   color: rgb(232, 229, 79);
 }
+.colortext_vert {
+  color: rgb(127, 175, 79);
+}
 
 @media (max-width: 576px) {
   .text_1 {
