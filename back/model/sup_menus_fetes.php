@@ -17,7 +17,7 @@
             $req->bindValue(':id', $id, PDO::PARAM_INT);
 
             if($req->execute() > 0) {
-                return;
+                return $succes;
             }
         }
     }

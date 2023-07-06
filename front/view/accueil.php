@@ -16,7 +16,7 @@
         </div>
         <div class="row">
             <div class="col text_2">
-                <h2 class="text-center ">Nos Nouveautés</h2>
+                <h2 class="text-center">Nos Nouveautés</h2>
                 <div class="row g-2">
                     <div class="col-2"></div>
                     <?php foreach($nouveau_product as $nouvelle) {?>

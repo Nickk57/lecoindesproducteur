@@ -2,7 +2,7 @@
 <div class="container">
     <form method="post" enctype="multipart/form-data">
         <div class="form">
-            <label for="exampleFormControlInput1">Le nom du menus</label>
+            <label for="exampleFormControlInput1">Le nom du menus : example (menus de <span style="color: red;">Noël</span> ou <span style="color: red;">Pâquet</span></label>
             <input type="text" name="name" class="form-control" id="exampleFormControlInput1">
         </div>
         <div class="form">
@@ -13,6 +13,11 @@
             <button class="btn btn-success" type="submit" name="submit">Envoyer</button>
         </div>
     </form>
+    <div class="col">
+        <p>
+            Pour les noms du menus precise le nom comme ci-dessus.
+        </p>
+    </div>
 </div>
 <?php $content = ob_get_clean() ?>
 <?php include('layout.php') ?>

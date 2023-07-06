@@ -33,7 +33,7 @@
                             </a>
                         </td>
                         <td class="text-center">
-                            <a href="index.php?page=22&id_producteur=<?=$producteur['id']?>&id_picture=<?=$producteur['id_picture']?>" onclick="return(confirm('Voulez-vous supprimer cette categorie ?'))">
+                            <a href="index.php?page=22&id_producteur=<?=$producteur['id']?>&id_picture=<?=$producteur['id_picture']?>" onclick="return(confirm('Voulez-vous supprimer cette categorie producteur ?'))">
                                 <i class="fa fa-close fa-2x" title="Supprime" style="color: red;">
                                     <img src="image/Red_x.svg.png" class="img_1">
                                 </i>

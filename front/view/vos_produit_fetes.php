@@ -23,26 +23,16 @@
                             <img src="../image/noel-300x300.jpg" alt="noël">
                         </div>
                     </div>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
-                                    Le menus :
-                                </button>
-                            </h2>
-                            <div class="collapse4" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
+                        <div class="">
+                            <h2 class="">Le Menus :</h2>
+                            <div class="col">
+                                <?php foreach($menusnoel as $noel) {?>
                                     <div class="col">
-                                        <?php foreach($menusnoel as $noel) {?>
-                                            <div class="col">
-                                                <img src="../<?=$noel['path']?>" alt="<?=$noel['name']?>" class="img_3 mt-2">
-                                            </div>
-                                        <?php } ?>
+                                        <img src="../<?=$noel['path']?>" alt="<?=$noel['name']?>" class="img_3 mt-2">
                                     </div>
-                                </div>
+                                <?php } ?>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -63,24 +53,14 @@
                             <img src="../image/" alt="pâquet">
                         </div>
                     </div>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
-                                    Le menus :
-                                </button>
-                            </h2>
-                            <div class="collapse5" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <div class="col">
-                                        <?php foreach($menuspaquet as $paquet) {?>
-                                            <div class="col">
-                                                <img src="../<?=$paquet['path']?>" alt="<?=$paquet['name']?>" class="img_3 mt-2">
-                                            </div>
-                                        <?php } ?>
-                                    </div>
+                    <div class="">
+                        <h2 class="">Le Menus :</h2>
+                        <div class="col">
+                            <?php foreach($menuspaquet as $paquet) {?>
+                                <div class="col">
+                                    <img src="../<?=$paquet['path']?>" alt="<?=$paquet['name']?>" class="img_3 mt-2">
                                 </div>
-                            </div>
+                            <?php } ?>
                         </div>
                     </div>
                 </div>
@@ -103,24 +83,14 @@
                             <img src="../image/" alt="halloween">
                         </div>
                     </div>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
-                                    Le menus :
-                                </button>
-                            </h2>
-                            <div class="collapse6" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <div class="col">
-                                        <?php foreach($menushalloween as $halloween) {?>
-                                            <div class="col">
-                                                <img src="../<?=$halloween['path']?>" alt="<?=$halloween['name']?>" class="img_3 mt-2">
-                                            </div>
-                                        <?php } ?>
-                                    </div>
+                    <div class="">
+                        <h2 class="accordion-header">Le Menus :</h2>
+                        <div class="col">
+                            <?php foreach($menushalloween as $halloween) {?>
+                                <div class="col">
+                                    <img src="../<?=$halloween['path']?>" alt="<?=$halloween['name']?>" class="img_3 mt-2">
                                 </div>
-                            </div>
+                            <?php } ?>
                         </div>
                     </div>
                 </div>

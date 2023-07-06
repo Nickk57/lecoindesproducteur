@@ -7,7 +7,7 @@
 
         if(isset($_GET['id'])) {
 
-            supMenusFetes();
+            $success = supMenusFetes();
         }
 
         require('view/sup_menus_fetes.php');
